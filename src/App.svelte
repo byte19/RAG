@@ -1,21 +1,16 @@
 <script>
-    import Camera from "./camera.svelte";
-import FileDrop from "./fileDrop.svelte";
+	import FileDrop from "./fileDrop.svelte";
 </script>
 
-
 <main>
-	<FileDrop/>
-	<!-- <Camera /> -->
+	<FileDrop />
 </main>
-<button style="color: blue">
-	Submit for Processing
-</button>
+<button style="color: blue"> Submit for Processing </button>
 
 <style>
 	main {
 		background-color: grey;
-		text-align: center;	
+		text-align: center;
 		display: block;
 		margin: auto;
 		padding: 10%;
